@@ -784,7 +784,7 @@ class StickyNotesApp(QMainWindow):
             positions = [(i, j) for i in range(2) for j in range(3)]
             for row, col in positions:
                 note = StickyNote()
-                self.notes_layout.addWidget(note, row, col)
+                #self.notes_layout.addWidget(note, row, col)
         else:
             # Create note widgets
             for i, note_data in enumerate(notes):
